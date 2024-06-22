@@ -4,9 +4,22 @@
 
 - [Laravel 11](https://laravel.com/).
 - [Livewire](https://laravel.com/).
-- [Sail]([https://laravel.com/docs/container](https://laravel.com/docs/11.x/sail)).
-- [Pnit]([https://laravel.com/docs/container](https://laravel.com/docs/11.x/pint)).
+- [Sail](https://laravel.com/docs/11.x/sail).
+  - Postgres
+  - Redis
+- [Pnit](https://laravel.com/docs/11.x/pint).
 - Repository Pattern
+
+### Development Commands
+
+- Launch project
+    `composer sail up`
+
+- Running PHP CodeStyle Fix
+    `composer pint`
+
+- Running Artisan commands
+    `composer sail artisan`
 
 ## License
 
